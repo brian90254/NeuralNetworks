@@ -22,4 +22,5 @@ if __name__ == "__main__":
     output_filename = input_filename.split('.')[0] + '_Quant_1.png'
     image = cv2.imread(input_filename)
     plt.imshow(quantimage(image, 3, output_filename))
+    #plt.imshow(quantimage(image, 3))
     plt.show()
